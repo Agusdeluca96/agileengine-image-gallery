@@ -13,9 +13,9 @@ export default {
   props: {
     theme: {
       type: String,
-      default: 'light',
-    },
-  },
+      default: "light"
+    }
+  }
 };
 </script>
 

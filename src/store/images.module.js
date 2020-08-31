@@ -6,7 +6,7 @@ const state = {
   pagination: {
     page: null,
     pageCount: null,
-    hasMore: null,
+    hasMore: null
   },
   currentImage: null
 };
@@ -25,21 +25,19 @@ export const mutations = {
 
 export const actions = {
   fetchImages({ commit, state }, page) {
-    return ImageService.getPaginated(page ?? state.pagination.page)
-      .then(({ data }) =>
-        commit("SET_IMAGES", data)
-      );
+    return ImageService.getPaginated(
+      page ?? state.pagination.page
+    ).then(({ data }) => commit("SET_IMAGES", data));
   },
 
   fetchImage({ commit }, id) {
-    return ImageService.get(id)
-      .then(({ data }) =>
-        commit("SET_CURRENT_IMAGE", data)
-      );
+    return ImageService.get(id).then(({ data }) =>
+      commit("SET_CURRENT_IMAGE", data)
+    );
   },
 
   resetImage({ commit }) {
-    return commit("SET_CURRENT_IMAGE", null)
+    return commit("SET_CURRENT_IMAGE", null);
   }
 };
 
