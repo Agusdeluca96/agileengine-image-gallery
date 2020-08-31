@@ -1,24 +1,35 @@
-# agileengine-image-gallery
+# AgileEngine Image Gallery
 
-## Project setup
-```
-npm install
+---
+## Description
+
+This repository contains the resolution for [AgileEngine Front-End Engineer Test](https://agileengine.gitlab.io/interview/test-tasks/fevJhBJmQRwtfHLZ/).
+
+## Table of Contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+
+### Installation
+
+#### Clone repo
+
+```bash
+# Clone the repo
+$ git clone https://github.com/Agusdeluca96/agileengine-image-gallery.git
+
+# Go into app's directory
+$ cd agileengine-image-gallery
+
+# Install app's dependencies
+$ npm install
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+#### Usage
 
-### Compiles and minifies for production
-```
-npm run build
-```
+1. Start de server
 
-### Lints and fixes files
-```
-npm run lint
-```
+   ```bash
+   npm run serve
+   ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+2. Open project on browser: http://localhost:8080/
