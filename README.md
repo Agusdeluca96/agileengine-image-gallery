@@ -15,32 +15,35 @@ This repository contains the resolution for [AgileEngine Front-End Engineer Test
 
 ### Installation
 
-#### Clone repo
+1. Get the repo from one of the following ways:
+   - Clone from GitHub
+      ```bash
+      git clone https://github.com/Agusdeluca96/agileengine-image-gallery.git
+      ```
+   - Download ZIP
 
-```bash
-# Clone the repo
-$ git clone https://github.com/Agusdeluca96/agileengine-image-gallery.git
+2. Install dependencies
+   ```bash
+   # Go into app's directory
+   cd agileengine-image-gallery
 
-# Go into app's directory
-$ cd agileengine-image-gallery
+   # Install app's dependencies
+   npm install
+   ```
 
-# Install app's dependencies
-$ npm install
-```
+### Usage
 
-#### Usage
+#### Server mode
 
-##### Server mode
-
-1. Start de server
+1. Start the server
 
    ```bash
    npm run serve
    ```
 
-2. Open project on browser: http://localhost:8080/
+2. Open url http://localhost:8080 on browser
 
-##### Build mode
+#### Build mode
 
 1. Build the project
 
@@ -48,4 +51,4 @@ $ npm install
    npm run build
    ```
 
-2. Open file `/dist/index.html` in browser
+2. Open file `dist/index.html` in browser
